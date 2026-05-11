@@ -4,7 +4,7 @@ Verification systems architecture for autonomous agents, crypto infrastructure, 
 
 ## Focus
 
-I build verifier-first infrastructure for systems that propose actions before execution.
+I build infrastructure for systems that propose actions before execution.
 
 Current focus:
 
