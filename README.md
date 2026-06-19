@@ -1,66 +1,40 @@
-# Sovereign Orthogonal System
+# Not a Perfect RNG
 
-Verification systems architecture for autonomous agents, crypto infrastructure, and pre-execution safety.
+An entropy, randomness, PQC, and adversary-readiness audit stack.
 
-## Focus
+## What it is
 
-I build infrastructure for systems that propose actions before execution.
+Not a Perfect RNG does not claim to prove perfect randomness. It audits entropy assumptions, finite-sample bias, adversary distinguishability, crypto-boundary risk, PQC readiness, and operational security posture.
 
-Current focus:
+## What it does
 
-- autonomous agent safety
-- Solana transaction preflight
-- AI-agent tool-call policy
-- Jupiter route verification
-- simulation-based risk checks
-- Prometheus/Grafana observability
-- audit trails for automated decisions
+- Tests finite-sample bias against 0.5.
+- Runs adversary distinguisher checks.
+- Compares candidate streams against references and bad controls.
+- Documents entropy-source assumptions.
+- Generates external-test-ready bitstreams.
+- Produces evidence reports for randomness, entropy, crypto, PQC, and privacy/security readiness.
 
-## Featured Projects
+## What it does not claim
 
-### AgentTxGuard
+- It does not prove true randomness.
+- It does not prove exact p=0.5.
+- It does not prove cryptographic security.
+- It is not NIST validated.
+- It is not a QRNG replacement.
+- It does not generate keys.
 
-Non-custodial preflight verification API for autonomous Solana agents.
+## Services
 
-Checks route metadata, Jupiter quotes, simulation reports, and Solana RPC `simulateTransaction` results before an agent signs or broadcasts a transaction.
+Private audit reports available for:
 
-https://github.com/sovereignorthogonalsystem/agent-txguard
+- RNG readiness
+- entropy-source assumptions
+- adversary distinguishability
+- PQC and crypto-boundary readiness
+- privacy/security posture
+- external-test evidence preparation
 
-### Solana Observability Stack
+## Contact
 
-Production-style monitoring stack for Solana RPC, AgentTxGuard, and autonomous transaction infrastructure.
-
-Includes FastAPI metrics, Prometheus config, alert rules, Grafana dashboard provisioning, Docker Compose, runbooks, and a postmortem template.
-
-https://github.com/sovereignorthogonalsystem/solana-observability-stack
-
-### AI Agent Action Firewall
-
-Policy and audit middleware for autonomous AI-agent actions and tool calls.
-
-Checks external side effects, sensitive data, destructive actions, financial tools, cost ceilings, request IDs, and audit lookup before execution.
-
-https://github.com/sovereignorthogonalsystem/ai-agent-action-firewall
-
-### Orthogonal Verifier Core
-
-Lightweight verifier framework for scoring proposed actions before execution.
-
-https://github.com/sovereignorthogonalsystem/orthogonal-verifier-core
-
-## Role
-
-Verification Systems Architect.
-
-## Direction
-
-Building infrastructure for autonomous systems that need:
-
-- PASS / BLOCK / REVIEW decisions
-- safety scoring
-- preflight verification
-- policy enforcement
-- usage metering
-- request tracing
-- audit lookup
-- operational observability
+Contact for private audits and pricing.
