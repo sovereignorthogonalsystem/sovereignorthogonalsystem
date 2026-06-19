@@ -36,5 +36,5 @@ Private audit reports available for:
 - external-test evidence preparation
 
 ## Contact
-
 Contact for private audits and pricing.
+sovereignorthogonalsystem@gmail.com
